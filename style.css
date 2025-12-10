@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(255, 233, 196);
+}
+.topBanner{
+    background-color: rgb(251, 234, 140);
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topBanner p{
+    font-size: 70px;
+}
+.links button{
+    background-color: rgb(210, 145, 33);
+    width: 230px;
+    border-radius: 10px;
+    font-size: 40px;
+    border-width: 5px;
+    transition: all ease 0.5s;
+}   
+.links button:hover{
+    background-color: rgb(167, 115, 26);
+}
+
+/* HOMEPAGE */
+.welcomeMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeMessage p{
+    padding: 200px;
+    font-size: 100px;
+}
+
+/* ABOUT */
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.text-container{
+    width: 700px;
+    border: 7px solid black;
+    text-align: center  ;
+}
+.name{
+    font-size: 80px;
+    background-color: brown;
+}
+.description p{
+    width: 700px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(149, 92, 92);
+}
+
+.aboutMe img{
+    width: 500px;
+    height: 500px;
+}
